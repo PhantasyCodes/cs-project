@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #0F0F0F;
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin-right: 1.5rem;
+}
