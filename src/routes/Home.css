@@ -4,6 +4,12 @@
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav-links {
@@ -12,4 +18,12 @@
 
 .nav-links a {
     margin-right: 1.5rem;
+}
+
+.user-links {
+    margin-right: 2rem;
+}
+
+.user-links a {
+    margin: 0 1rem;
 }

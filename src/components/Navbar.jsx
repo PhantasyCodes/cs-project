@@ -47,27 +47,6 @@ const MenuToggle = (props) => {
   )
 }
 
-const NavLink = styled(motion.li)`
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-
-    a {
-        text-decoration: none;
-        font-family: Furore;
-        color: #EA1626;
-        font-size: 3.5vw;
-        transition: all 300ms ease-in-out;
-        margin-bottom: 2vw;
-    }
-
-    &:hover {
-        a {
-            color: black;
-        }
-    }
-`
-
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
 
@@ -77,14 +56,20 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <MenuToggle toggle={toggleMenu} isOpen={isOpen} />
-        <div className="nav-links">
+        <div className="left-nav">
+            <MenuToggle toggle={toggleMenu} isOpen={isOpen} />
+            <div className="nav-links">
             <Link to='/'>Entertainment</Link>
             <Link to='/'>Technology</Link>
             <Link to='/'>Science</Link>
             <Link to='/'>Business</Link>
             <Link to='/'>Health</Link>
             <Link to='/'>Sports</Link>
+        </div>
+        </div>
+        <div className="user-links">
+            <Link to='/' className='button' style={{paddingTop: '0.6rem'}}>SUBSCRIBE</Link>
+            <Link to='/'className='button-special' style={{paddingTop: '0.5rem'}}>LOG IN</Link>
         </div>
     </div>
   )

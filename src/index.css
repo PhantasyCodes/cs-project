@@ -22,3 +22,16 @@ a {
   font-weight: 600;
   font-size: 1.1rem;
 }
+
+.button {
+  background-color: #00B4D8;
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+}
+
+.button-special {
+  padding: 0.4rem 1rem;
+  font-weight: 800;
+  border: solid 2px white;
+
+}
