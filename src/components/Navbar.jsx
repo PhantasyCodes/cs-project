@@ -1,6 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+const HamburgerMenu = () => {
+    return (
+        <div className="hamburger-menu">
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        </div>
+    )
+}
+
 const Navbar = () => {
   return (
     <div className='navbar'>
