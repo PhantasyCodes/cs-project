@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .left-nav {
@@ -26,4 +27,26 @@
 
 .user-links a {
     margin: 0 1rem;
+}
+
+.header {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    width: 100vw;
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.header h2 {
+    position: absolute;
+    left: 1rem;
+    top: 9rem;
+    font-size: 1rem;
+    font-weight: bold;
 }

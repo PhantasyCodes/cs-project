@@ -11,6 +11,10 @@ h1 {
   font-family: Bagnard, cursive;
 }
 
+h2 {
+  font-family: Metropolis;
+}
+
 p {
   font-family: 'Times New Roman', Times, serif;
 }
@@ -33,5 +37,4 @@ a {
   padding: 0.4rem 1rem;
   font-weight: 800;
   border: solid 2px white;
-
 }
